@@ -1,0 +1,36 @@
+body{margin:0;padding:0;background-color:#c9c9c9;font-size:15px;color:#222222;font-family:sans-serif;}
+img{border:0;vertical-align: bottom}
+.center{text-align:center;}
+#wrapper{width:100%;overflow:auto;margin-top:5px;}
+header{margin:auto;width:100%;overflow:auto;}
+@media screen and (min-width: 800px) {
+	header{margin:auto;width:800px;overflow:auto;}
+}
+header ul{margin:0;padding:0;}
+header li{list-style-type:none;float:left;display:block;font-size:20px;padding:10px;margin-left:4px;}
+header a, header a:active, header a:visited{color:#ffffff;text-decoration:none;}
+header a:hover{color:#ffffff;text-decoration:underline;}
+#menu-home{color:#ffffff;background-color:#000000;}
+#menu-linuxday{color:#ffffff;background-color:#FF6600;}
+#menu-isolinux{color:#ffffff;background-color:#4B7F8B;}
+#menu-video{color:#ffffff;background-color:#00CC33;}
+#menu-libri{color:#ffffff;background-color:#0000CC;}
+#menu-musica{color:#ffffff;background-color:#9900CC;}
+#menu-newsletter{color:#ffffff;background-color:#CC0000;}
+#content{margin:auto;width:100%;overflow:auto;background-color:#eeeeee;}
+@media screen and (min-width: 800px) {
+	#content{margin:auto;width:800px;overflow:auto;background-color:#eeeeee;}
+}
+.page{padding:10px;}
+#page-home{border-top:5px solid #000000;}
+#page-linuxday{border-top:5px solid #FF6600;}
+#page-isolinux{border-top:5px solid #4B7F8B;}
+#page-video{border-top:5px solid #00CC33;}
+#page-libri{border-top:5px solid #0000CC;}
+#page-musica{border-top:5px solid #9900CC;}
+#page-newsletter{border-top:5px solid #CC0000;}
+footer{margin:auto;width:100%;overflow:auto;background-color:#333333;}
+@media screen and (min-width: 800px) {
+	footer{margin:auto;width:800px;overflow:auto;background-color:#333333;}
+}
+footer p{margin:5px;text-align:center;color:#ffffff;}

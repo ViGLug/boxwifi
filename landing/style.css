@@ -1,0 +1,8 @@
+body{margin:0;padding:0;background-color:#c9c9c9;font-size:15px;color:#222222;font-family:sans-serif;}
+img{border:0;vertical-align: bottom}
+.center{text-align:center;}
+#wrapper{width:100%;overflow:auto;margin-top:20px;}
+header{margin:auto;width:100%;overflow:auto;background-color:#eeeeee;}
+@media screen and (min-width: 800px) {
+	header{margin:auto;width:800px;overflow:auto;background-color:#eeeeee;}
+}
