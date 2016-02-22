@@ -1,0 +1,8 @@
+<VirtualHost *:80>
+	ServerAdmin webmaster@localhost
+	ServerName wifi.viglug.org
+
+	DocumentRoot /var/www/viglug
+
+	Redirect permanent / https://wifi.viglug.org/
+</VirtualHost>
